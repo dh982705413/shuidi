@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
@@ -13,6 +13,12 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  methods: {
+    dh() {
+      const dh2 = 12
+      console.log(dh2)
+    }
   }
 }
 </script>
